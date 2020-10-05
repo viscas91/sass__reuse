@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        
+        <link rel="stylesheet" href="/bundle.css">
+<!--         <link rel="stylesheet" type="text/css" href="./material-components-web.css"> -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+        <title>Reuse sass</title>
+    </head>
+
+    <body>
+        <!-- <div style="display: block">
+          <nav class="navigation">
+            <div class="navigation__row">
+                    <section class="navigation__section navigation__alignstart">
+                        <span class="navigation__brand">Title</span>
+                    </section>
+
+                    <section class="navigation__section navigation__alignend">
+                        <button type="navigation__item">Page 1</button>
+                        <button type="navigation__item">Page 2</button>
+                        <button type="navigation__item">Page 3</button>
+                        <button type="navigation__item">Page 4</button>
+                    </section>
+                </div>
+          </nav>
+        </div> -->
+
+        <div style="display: block">
+            <button class="button">
+               <div class="button__ripple"></div>
+               <span class="button__label">Normal Button</span>
+            </button>
+
+            <button class="button button__outlined">
+               <div class="button__ripple"></div>
+               <span class="button__label">Outlined Button</span>
+            </button>
+
+            <button class="button button__raised">
+              <span class="button__label">Raised Button</span>
+            </button>
+
+            <button class="button button__unelevated">
+              <span class="button__label">Unelevated Button</span>
+            </button>
+
+            <button class="button">
+              <div class="button__ripple"></div>
+              <i class="material-icons button__icon" aria-hidden="true">favorite</i>
+              <span class="button__label">Icon Button</span>
+            </button>
+        </div>
+
+        <div>
+            <button class="button__floating" aria-label="Favorite">
+              <div class="button__floating__ripple"></div>
+              <span class="button__floating__icon material-icons">favorite</span>
+            </button>
+
+            <button class="button__floating button__floating__small" aria-label="Favorite">
+              <div class="button__floating__ripple"></div>
+              <span class="button__floating__icon material-icons">favorite</span>
+            </button>
+
+            <button class="button__floating button__floating__extended">
+              <div class="button__floating__ripple"></div>
+              <span class="material-icons button__floating__icon">add</span>
+              <span class="button__floating__label">Create</span>
+            </button>
+
+            <button class="button__floating button__floating__exited">
+              <div class="button__floating__ripple"></div>
+              <span class="material-icons button__floating__icon">add</span>
+            </button>
+        </div>
+
+        <div>
+          <button class="button__ico material-icons">favorite</button>
+          <button id="add-to-favorites"
+             class="button__ico"
+             aria-label="Add to favorites"
+             aria-pressed="false">
+             <i class="material-icons button__ico-i button__ico-i--on">favorite</i>
+             <i class="material-icons button__ico-i">favorite_border</i>
+          </button>
+        </div>
+
+      <div>
+        <div class="card">
+          <h6>card</h6>
+        </div>
+
+        <div class="card card__outlined">
+          <h6>card outlined</h6>
+        </div>
+
+        <div class="card__actions">
+          <div class="card__action-buttons">
+            <button class="button card__action card__action--button">
+              <div class="button__ripple"></div>
+              <span class="button__label">Read</span>
+            </button>
+            <button class="button card__action card__action--button">
+              <div class="button__ripple"></div>
+              <span class="button__label">Bookmark</span>
+            </button>
+          </div>
+          <div class="card__action-icons">
+           <button class="material-icons button__ico card__action card__action--icon" title="Share">share</button>
+            <button class="material-icons button__ico card__action card__action--icon" title="More options">more_vert</button>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>

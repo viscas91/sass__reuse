@@ -1,0 +1,33 @@
+@use "@material/top-app-bar/mdc-top-app-bar";
+
+.navigation {
+	@extend .mdc-top-app-bar;
+
+    &__fixed {
+    	@extend .mdc-top-app-bar--fixed;
+    }
+
+    &__row {
+    	@extend .mdc-top-app-bar__row;
+    }
+
+    &__section {
+    	@extend .mdc-top-app-bar__section;
+    }
+
+    &__alignstart{
+    	@extend .mdc-top-app-bar__section--align-start;
+    }
+
+    &__alignend {
+    	@extend .mdc-top-app-bar__section--align-end;
+    }
+
+    &__item {
+    	@extend .mdc-top-app-bar__action-item;
+    }
+
+    &__brand {
+    	@extend .mdc-top-app-bar__title;
+    }
+}

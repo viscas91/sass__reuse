@@ -1,0 +1,18 @@
+.loading{
+	width:100vw;
+	height:50rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	& svg {
+		
+	}
+
+	&__text {
+		margin-left: 2rem;
+		font-size: 5rem;
+		font-weight: 700;
+		color: $color-black;
+	}
+}

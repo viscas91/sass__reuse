@@ -1,0 +1,40 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+
+    @include respond(phone-land){ // width< 1200
+        font-size: 56.25%; //1rem= 9px, 9/16 = 56.25
+    }
+    @include respond(phone-port){ // width< 900
+        font-size: 50%; //1rem= 8px, 9/16 = 50
+    }
+    @include respond(big-desktop){ // width< 1200
+        font-size: 75%; //1rem= 12px, 12/16 = 75
+    }
+}
+
+body{
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+
+    @include respond(tab-port){
+        padding: 0;
+    }
+}
+
+::selection {
+    background-color: $color-3;
+    color: $color-1;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}

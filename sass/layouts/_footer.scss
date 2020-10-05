@@ -1,0 +1,15 @@
+.footer {
+    height: 6rem;
+    width: 100%;
+    background: $color-black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &__text{
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: $color-white;
+    }
+}

@@ -1,14 +1,11 @@
-$p: 576;
-$t: 768;
-$tl: 992;
-$d: 1200;
+$p: 0;
+$t: 600;
+$d: 840;
 $cols: 12;
 
 $map-grid-props: (
-        '': 0,
         '-p': $p,
         '-t': $t,
-        '-tl': $tl,
         '-d': $d
 );
 
@@ -29,11 +26,11 @@ $map-grid-props: (
     }
     @for $i from 1 through $cols {
       &#{$modifier}-#{$i} {
-        flex: 0 0 (100 / ($cols / $i) ) * 1%;
-        max-width: (100 / ($cols / $i) ) * 1%;
+        flex: 0 0 ((100 / ($cols / $i) ) * 1%);
+        max-width: ((100 / ($cols / $i) ) * 1%);
       }
       &#{$modifier}-offset-#{$i} {
-        margin-left: (100 / ($cols / $i) ) * 1%;
+        margin-left: ((100 / ($cols / $i) ) * 1%);
       }
     }
   }

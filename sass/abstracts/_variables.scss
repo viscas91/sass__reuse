@@ -1,59 +1,59 @@
-// Colors
-$color-1: #FFFFFF;
-$color-2: #161925;
-$color-3: #235789;
-$color-4: #C1292E;
-$color-5: #F1D302;
+// // Colors
+// $color-1: #FFFFFF;
+// $color-2: #161925;
+// $color-3: #235789;
+// $color-4: #C1292E;
+// $color-5: #F1D302;
 
-// font
+// // font
 
-$default-font-size: 1.6rem;
+// $default-font-size: 1.6rem;
 
-$color-white: #FFFFFF;
-$color-black: #000000;
-$color-grey-light-1: #f7f7f7;
-$color-grey: #cccccc;
-$color-grey-dark: #7f7f7f;
-$color-dark-green: #0C7C59;
-$dark-green: #A31621;
-$link: #2c97de;
+// $color-white: #FFFFFF;
+// $color-black: #000000;
+// $color-grey-light-1: #f7f7f7;
+// $color-grey: #cccccc;
+// $color-grey-dark: #7f7f7f;
+// $color-dark-green: #0C7C59;
+// $dark-green: #A31621;
+// $link: #2c97de;
 
-// GRID
+// // GRID
 
-$grid-width: 114rem;
-$gutter-vertical: 4rem;
-$gutter-vertical-small: 2rem;
-$gutter-horizontal: 4rem;
-$gutter-horizontal-small: 2rem;
+// $grid-width: 114rem;
+// $gutter-vertical: 4rem;
+// $gutter-vertical-small: 2rem;
+// $gutter-horizontal: 4rem;
+// $gutter-horizontal-small: 2rem;
 
-// Button
-$button-border: none !default;
-$button-radius: 2px !default;
-$button-height: 36px !default;
-$button-padding: 0 16px !default;
-$button-flat-color: #343434 !default;
-$button-flat-disabled-color: lighten(#999, 10%) !default;
+// // Button
+// $button-border: none !default;
+// $button-radius: 2px !default;
+// $button-height: 36px !default;
+// $button-padding: 0 16px !default;
+// $button-flat-color: #343434 !default;
+// $button-flat-disabled-color: lighten(#999, 10%) !default;
 
-// Disabled Button
-$button-disabled-background: #DFDFDF !default;
-$button-disabled-color: #9F9F9F !default;
+// // Disabled Button
+// $button-disabled-background: #DFDFDF !default;
+// $button-disabled-color: #9F9F9F !default;
 
-// TextField and inputs
-$input-height: 3rem !default;
-$input-border-color: color("grey", "base") !default;
-$input-border: 1px solid $input-border-color !default;
-$input-background: #fff !default;
-// $input-error-color: $error-color !default;
-// $input-success-color: $success-color !default;
-// $input-focus-color: $secondary-color !default;
-$input-font-size: 16px !default;
-$input-margin-bottom: 8px;
-$input-margin: 0 0 $input-margin-bottom 0 !default;
-$input-padding: 0 !default;
-$label-font-size: .8rem !default;
-$input-disabled-color: rgba(0,0,0, .42) !default;
-// $input-disabled-solid-color: #949494 !default;
-// $input-disabled-border: 1px dotted $input-disabled-color !default;
-// $input-invalid-border: 1px solid $input-error-color !default;
-// $input-icon-size: 2rem;
-// $placeholder-text-color: lighten($input-border-color, 20%) !default;
+// // TextField and inputs
+// $input-height: 3rem !default;
+// $input-border-color: color("grey", "base") !default;
+// $input-border: 1px solid $input-border-color !default;
+// $input-background: #fff !default;
+// // $input-error-color: $error-color !default;
+// // $input-success-color: $success-color !default;
+// // $input-focus-color: $secondary-color !default;
+// $input-font-size: 16px !default;
+// $input-margin-bottom: 8px;
+// $input-margin: 0 0 $input-margin-bottom 0 !default;
+// $input-padding: 0 !default;
+// $label-font-size: .8rem !default;
+// $input-disabled-color: rgba(0,0,0, .42) !default;
+// // $input-disabled-solid-color: #949494 !default;
+// // $input-disabled-border: 1px dotted $input-disabled-color !default;
+// // $input-invalid-border: 1px solid $input-error-color !default;
+// // $input-icon-size: 2rem;
+// // $placeholder-text-color: lighten($input-border-color, 20%) !default;
